@@ -43,7 +43,7 @@ export interface Checkbox extends Equals<boolean> {}
 export interface Select extends Equals<string>, Empty {}
 
 /** A multi-select filter condition applies to database properties of type `"multi_select"`. */
-export interface MutliSelect extends Select {}
+export interface MultiSelect extends Select {}
 
 /**
  * A date filter condition applies to database properties of types `"date"`, `"created_time"`, and `"last_edited_time"`.
