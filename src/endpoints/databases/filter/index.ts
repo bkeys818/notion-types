@@ -32,7 +32,7 @@ type ConditionFor<T> = T extends
     : T extends 'select'
     ? Conditions.Select
     : T extends 'multi_select'
-    ? Conditions.MutliSelect
+    ? Conditions.MultiSelect
     : T extends 'date' | 'created_time' | 'last_edited_time'
     ? Conditions.Date
     : T extends 'people' | 'created_by' | 'last_edited_by'
